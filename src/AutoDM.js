@@ -41,8 +41,7 @@ const GenerateMessage = name => {
   ];
   const d = new Date();
   const dayName = days[d.getDay()];
-  return `Hi ${name} Thanks for .... \n Happy ${dayName} 😊😊 `; // your message
-  // My message   return `Hi ${name} Thanks for being a part of my social media network. I'am the @PicsrushE founder,A new Online Image Editor completely with web technologies,I'm also a reactjs developer and medium blogger.\n Happy to discuss anytime 😊  \n Happy ${dayName} 😊😊 `;
+  return `Hi ${name} Thanks for following, if you need IT Support or VoIP business telecoms we can arrange a meeting to discuss. We are a Microsoft 1-Tier Cloud Solution Provider (CSP) Partner and have been providing these services for 20 years.`;
 };
 
 module.exports = AutoDM;
