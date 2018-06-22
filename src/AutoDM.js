@@ -41,7 +41,15 @@ const GenerateMessage = name => {
   ];
   const d = new Date();
   const dayName = days[d.getDay()];
-  return `Hi ${name} Thanks for following, if you need IT Support or VoIP business telecoms we can arrange a meeting to discuss. We are a Microsoft 1-Tier Cloud Solution Provider (CSP) Partner and have been providing these services for 20 years.`;
+  return `Hi ${name} Thanks for following! Need any #ITsupport or #Contrex? 
+
+KTGL is a #Hull based company supporting local businesses for 20 years.
+Contact us on 01482 291291. We'll be happy to assist! 
+
+
+Thanks
+KTGL      
+😊 `; // your message
 };
 
 module.exports = AutoDM;
